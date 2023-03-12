@@ -124,4 +124,8 @@ var tlds = map[string]bool{
 	"xxx":    true,
 	"yu":     true,
 	"za.com": true,
+	"cf": true,
+	"ml": true,
+	"ga": true,
+	"gq": true,
 }
