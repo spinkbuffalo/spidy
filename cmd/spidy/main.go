@@ -6,7 +6,7 @@ import (
 
 	//
 
-	"github.com/twiny/spidy/v2/cmd/spidy/api"
+	"github.com/spinkbuffalo/spidy/v2/cmd/spidy/api"
 
 	//
 	"github.com/urfave/cli/v2"
