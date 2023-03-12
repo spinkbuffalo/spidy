@@ -8,7 +8,7 @@ import (
 	"time"
 
 	//
-	"github.com/twiny/spidy/v2/internal/pkg/hbyte"
+	"github.com/spinkbuffalo/spidy/v2/internal/pkg/hbyte"
 
 	"gopkg.in/yaml.v3"
 )
