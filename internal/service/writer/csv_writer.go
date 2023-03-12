@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/twiny/spidy/v2/internal/pkg/spider/v1"
+	"github.com/spinkbuffalo/spidy/v2/internal/pkg/spider/v1"
 )
 
 // CSVWriter
