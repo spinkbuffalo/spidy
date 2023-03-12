@@ -1,19 +1,23 @@
+# main crawler config
 crawler:
-    max_depth: 10
-    # filter: []
-    rate_limit: "1/5s"
-    max_body_size: "20MB"
-    user_agents:
-      - "Spidy/2.1; +https://github.com/twiny/spidy"
-    # proxies: []
+    max_depth: 10 # max depth of pages to visit per website.
+    # filter: [] # regexp filter
+    rate_limit: "1/5s" # 1 request per 5 sec
+    max_body_size: "20MB" # max page body size
+    user_agents: # array of user-agents
+      - "Spidy/2.1; +https://github.com/ twiny/spidy"
+    # proxies: [] # array of proxy. http(s), SOCKS5
+# Logs
 log:
-    rotate: 7
-    path: "./log"
+    rotate: 7 # log rotation
+    path: "./log" # log directory
+# Store
 store:
-    ttl: "24h"
-    path: "./store"
+    ttl: "24h" # keep cache for 24h 
+    path: "./store" # store directory
+# Results
 result:
-    path: ./result
-parralle: 3
-timeout: "5m"
-tlds: ["biz", "cc", "com", "edu", "info", "net", "org", "tv"]
+    path: ./result # result directory
+parralle: 10 # number of concurrent workers 
+timeout: "5m" # request timeout
+tlds: ["tk", "ml", "cf", "ga", "gq"] # array of domain extension to check.
