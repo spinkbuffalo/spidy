@@ -1,4 +1,4 @@
-module github.com/twiny/spidy/v2
+module github.com/spinkbuffalo/spidy/v2
 
 go 1.18
 
