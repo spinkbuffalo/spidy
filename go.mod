@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/twiny/carbon v1.0.1
-	github.com/twiny/domaincheck v0.1.0
+	github.com/spinkbuffalo/domaincheck v0.1.0
 	github.com/twiny/flog v1.0.3
 	github.com/twiny/wbot v0.1.5
 	github.com/urfave/cli/v2 v2.10.3
@@ -36,7 +36,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/twiny/ratelimit v0.0.0-20220509163414-256d3376b0ac // indirect
-	github.com/twiny/whois/v2 v2.0.1 // indirect
+	github.com/spinkbuffalo/whois/v2 v2.0.1 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.opencensus.io v0.22.5 // indirect
 	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e // indirect
