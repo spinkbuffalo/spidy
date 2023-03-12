@@ -18,7 +18,7 @@ import (
 	"github.com/twiny/spidy/v2/internal/service/writer"
 
 	//
-	"github.com/twiny/domaincheck"
+	"github.com/spinkbuffalo/domaincheck"
 	"github.com/twiny/flog"
 	"github.com/twiny/wbot"
 )
